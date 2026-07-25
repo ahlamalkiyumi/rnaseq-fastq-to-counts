@@ -23,3 +23,5 @@ Raw sequencing files:
 RNA-seq Quality Control Summary:
  
 The QC analysis showed overall high sequencing quality with consistent base quality scores across read positions. Minor sequence content bias was observed at the first ~10 bp, likely due to random hexamer priming artifacts rather than technical issues. Adapter contamination was low, indicating that trimming would serve as a cleanup step rather than correcting major quality problems.
+
+The dataset showed high base quality; however, reads were short (36 bp) with a small insert size (~31 bp), indicating substantial paired-end overlap. While suitable for QC demonstration, longer-read RNA-seq datasets are preferable for robust transcript-level quantification.
