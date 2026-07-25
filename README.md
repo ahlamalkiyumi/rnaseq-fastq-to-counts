@@ -17,3 +17,9 @@ Raw sequencing files:
 - FASTQ format
 - Forward reads (_1.fastq.gz)
 - Reverse reads (_2.fastq.gz)
+
+## Observation
+
+RNA-seq Quality Control Summary:
+ 
+The QC analysis showed overall high sequencing quality with consistent base quality scores across read positions. Minor sequence content bias was observed at the first ~10 bp, likely due to random hexamer priming artifacts rather than technical issues. Adapter contamination was low, indicating that trimming would serve as a cleanup step rather than correcting major quality problems.
