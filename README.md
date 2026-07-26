@@ -29,15 +29,15 @@ The dataset showed high base quality; however, reads were short (36 bp) with a s
 #### After trimming:
 
 Filtering result:
-reads passed filter: 12997358
-reads failed due to low quality: 1058064
-reads failed due to too many N: 301154
-reads failed due to too short: 576
-reads failed due to adapter dimer: 0
-reads with adapter trimmed: 49431
-bases trimmed due to adapters: 219747
-Duplication rate: 3.94453%
-Insert size peak (evaluated by paired-end reads): 31
+- reads passed filter: 12997358
+- reads failed due to low quality: 1058064
+- reads failed due to too many N: 301154
+- reads failed due to too short: 576
+- reads failed due to adapter dimer: 0
+- reads with adapter trimmed: 49431
+- bases trimmed due to adapters: 219747
+- Duplication rate: 3.94453%
+- Insert size peak (evaluated by paired-end reads): 31
 
 Pass rate: 12,997,358 passed out of ~14.9M total reads. That's a solid, healthy pass rate for real sequencing data.
 Duplication rate is low, which is good.
