@@ -4,6 +4,8 @@ rna-seq preprocessing pipeline, salmon vs star quantification
 ## Question: 
 How does RNA-seq quantification strategy influence transcript abundance estimation?
 
+single-chromosome subset, local compute constraints, method-comparison focus rather than genome-wide biological claims
+
 This project builds a full RNA-seq preprocessing pipeline from raw FASTQ files, QC, trimming, alignment/pseudo-alignment, quantification to directly compare two of the field's standard approaches (STAR+featureCounts vs. Salmon) on the same dataset, rather than treating either as a black box
 
 ## Dataset
