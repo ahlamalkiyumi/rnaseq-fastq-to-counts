@@ -1,6 +1,9 @@
 # rnaseq-fastq-to-counts
 rna-seq preprocessing pipeline, salmon vs star quantification
 
+## Note 
+This project set out to compare Salmon (pseudo-alignment) and STAR (alignment-based) quantification on the same RNA-seq data. Salmon ran successfully end-to-end (see salmon_chr21_quant/). STAR's genome indexing repeatedly failed to complete on local hardware even restricted to a single chromosome - a concrete illustration of the real memory requirements alignment-based tools demand, and a useful practical lesson in matching tool choice to available compute. The repo is left as-is, documenting the working Salmon pipeline and the STAR troubleshooting process, rather than a completed head-to-head comparison.
+
 ## Question: 
 How does RNA-seq quantification strategy influence transcript abundance estimation?
 
