@@ -1,0 +1,15 @@
+{
+  "salmon_version": "2.3.4",
+  "index": "reference/salmon_chr21_index",
+  "libType": "A",
+  "output": "salmon_chr21_quant",
+  "mates1": [
+    "trimmed_SRR390728_1.fastq.gz"
+  ],
+  "mates2": [
+    "trimmed_SRR390728_2.fastq.gz"
+  ],
+  "unmatedReads": [],
+  "threads": 4,
+  "sketch": false
+}

@@ -1,0 +1,66 @@
+{
+  "salmon_version": "2.3.4",
+  "samp_type": "none",
+  "opt_type": "vb",
+  "quant_errors": [],
+  "num_libraries": 1,
+  "library_types": [
+    "IU"
+  ],
+  "frag_dist_length": 1001,
+  "frag_length_mean": 228.64820525469884,
+  "frag_length_sd": 25.616643439844076,
+  "seq_bias_correct": false,
+  "gc_bias_correct": false,
+  "pos_bias_correct": false,
+  "num_bias_bins": 0,
+  "mapping_type": "mapping",
+  "keep_duplicates": false,
+  "index_seq_hash": "3df8cdd3722c500e2e442ba43c3bd0527cef0c43c969c5e15ed7cfffd192a9fa",
+  "index_name_hash": "8f1e09eae1012092e550c521bd2e5f3a51e8afd5a82aef832d50b3a298138ede",
+  "index_seq_hash512": "9067967aa2cf33a51e877082fb7789d7b7427db19e4c108f24974bdef3822395595dec0d04d2d6521774c80eb25feb7c174264b2daeb7e6775e4bb8efcef1c68",
+  "index_name_hash512": "cbff270ed6f74fc81e4fe8bebf8fcfbc654434f7519d5e4b7b404b3023fd036212fc5f23ccd3e9ac850df88eff54eb727ac40a5bd3e834678aeee44f99f20215",
+  "index_decoy_seq_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "index_decoy_name_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "num_valid_targets": 6675,
+  "num_decoy_targets": 0,
+  "num_eq_classes": 23708,
+  "serialized_eq_classes": false,
+  "eq_class_properties": [
+    "range_factorized",
+    "gzipped"
+  ],
+  "length_classes": [
+    596,
+    874,
+    1370,
+    2503,
+    19659
+  ],
+  "num_processed": 6498679,
+  "num_mapped": 179577,
+  "num_dovetail_fragments": 116,
+  "num_fragments_filtered_vm": 358,
+  "num_alignments_below_threshold_for_mapped_fragments_vm": 328091,
+  "percent_mapped": 2.763284661390415,
+  "num_decoy_fragments": 0,
+  "inference_truncated_mass": 0.0,
+  "num_bootstraps": 0,
+  "num_orphan": 139135,
+  "range_factorization_bins": 4,
+  "num_em_iterations": 536,
+  "em_converged": true,
+  "detected_library_type": null,
+  "total_time_seconds": 11.333371517,
+  "peak_rss_kb": 0,
+  "diagnostics": [
+    {
+      "code": "very_low_mapping_rate",
+      "severity": "warning",
+      "message": "very low mapping rate (2.8%): the reference likely does not match these reads (wrong reference/organism or heavy contamination)"
+    }
+  ],
+  "call": "quant",
+  "start_time": "Sun Jul 26 17:03:53 2026",
+  "end_time": "Sun Jul 26 17:04:05 2026"
+}
